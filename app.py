@@ -3,6 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 from imblearn.pipeline import Pipeline
+from category_encoders import BinaryEncoder, OrdinalEncoder
 
 st.set_page_config(
     page_title = "Bank Marketing Campaign Classification",
